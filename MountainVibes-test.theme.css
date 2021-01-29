@@ -1,0 +1,100 @@
+//META{"name":"MountainVibes-Test","description":"test","author":"FloridaGuy","version":"test"}*//
+/*Better Discord Theming*/
+:root {
+    --bd-blue: rgb(204, 149, 96); /*Bandaged BD Buttons*/
+    --bd-blue-hover: rgb(204, 149, 96); /*i.e. "Add Themes"*/
+    --bd-blue-active: rgb(246, 13, 162); /*Unknown. Set to pink.*/
+    --blurple: rgb(246, 13, 162); /*Unknown. Set to pink.*/
+}
+
+.theme-dark {
+    --header-primary: white; /*Names, etc*/
+    --header-secondary: white; /*Usertag, misc subtext*/
+    --text-normal: white; /*Message content*/
+    --text-muted: white; /*System Specs, etc*/
+    --text-link: rgb(51, 255, 255); /*URLS*/
+    --channels-default: white /*Channel Names*/
+    --interactive-normal: white; /*Settings Page Button Text Color*/
+    --interactive-hover: white; /*Button Hover Text Color*/
+    --interactive-active: white; /*Button Selected Text Color*/
+    --interactive-muted: rgb(56, 56, 56); /*Muted Channel Text Color. COME BACK TO THIS*/
+
+/*Background Colors. The Fun Stuff*/
+    --background-primary: rgb(53, 53, 53); /*Chat area among other things.*/
+    --background-secondary: rgb(53, 53, 53); /*Userlist + Channel list + others*/
+    --background-secondary-alt: rgb(47, 47, 47); /*Userinfo*/
+    --background-tertiary: rgb(47, 47, 47); /*Serverlist, Searchbar Background*/
+    --background-accent: rgb(204, 149, 96); /*i.e. "NEW UNREADS" button above userinfo*/
+    --background-floating: rgb(64, 64, 64); /*Floating labels*/
+    --background-mobile-primary: rgb(246, 13, 162); /*UNKNOWN! Set to Pink. Mobile app only?*/
+    --background-mobile-secondary: rgb(246, 13, 162); /*UNKNOWN! Set to pink. Mobile app only?*/
+
+
+    --background-modifier-hover: rgba(204, 149, 96, 0.16); /*Button Hover Background. TRANLUSCENT.*/
+    --background-modifier-active: rgba(204, 149, 96, 0.24); /*Button Clicked*/
+    --background-modifier-selected: rgb(204, 149, 96); /*Button Selected*/
+    --background-modifier-accent: grey; /*i.e Thin lines between Settings Categories*/
+    --background-mentioned: rgba(204, 149, 96, 0.05); /*Background of mmessages mentioning you.*/
+    --background-mentioned-hover: rgba(204, 149, 96, 0.08); /*Background of messages mentioning you while hovering.*/
+    --background-message-hover: rgba(64, 64, 64, 0.07); /*Background of messages when hovering.*/
+    --background-help-warning: rgba(246, 13, 162, 0.1); /*UNKNOWN! Set to Pink.*/
+    --background-help-info: rgba(246, 13, 162, 0.1); /*UNKNOWN! Set to Pink.*/
+
+/*Scrollbars*/
+    --scrollbar-thin-thumb: rgb(204, 149, 96); /*Scrollbar*/
+    --scrollbar-thin-track: rgb(64, 64, 64); /*Scrollbar track*/
+    --scrollbar-auto-thumb: rgb(204, 149, 96); /*Scrollbar thumb*/
+    --scrollbar-auto-track: rgb(64, 64, 64); /*Scrollbar track*/
+    --scrollbar-auto-scrollbar-color-thumb: rgb(204, 149, 96); /*Scrollbar thumb*/
+    --scrollbar-auto-scrollbar-color-track: rgb(64, 64, 64); /*Scrollbar track*/
+
+
+    --elevation-stroke: 0 0 0 1px rgba(0, 0, 0, 0.15);
+    --elevation-low: 0 1px 0 rgba(0, 0, 0, 0.2),0 1.5px 0 rgba(0, 0, 0, 0.05),0 2px 0 rgba(0, 0, 0, 0.05);
+    --elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.16);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+
+
+    --logo-primary: rgb(246, 13, 162); /*UNKNOWN! Set to Pink.*/
+    --focus-primary: rgb(246, 13, 162); /*UNKNOWN! Set to Pink.*/
+    --radio-group-dot-foreground: rgb(246, 13, 162); /*UNKNOWN! Set to Pink.*/
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); /*UNKNOWN!*/
+    
+
+    --channeltextarea-background: rgb(64, 64, 64); /*Message field*/
+    --activity-card-background: rgb(246, 13, 162); /*UNKNOWN! Set to Pink.*/
+    --textbox-markdown-syntax: rgb(51, 255, 255); /*Markdown color, i.e. ~~strikethrough~~*/
+    
+/*Deprecated. Not in use? Set to pink anyways.*/
+    --deprecated-card-bg: rgba(246, 13, 162, 0.6);
+    --deprecated-card-editable-bg: rgba(246, 13, 162, 0.3);
+    --deprecated-store-bg: rgb(246, 13, 162);
+    --deprecated-quickswitcher-input-background: rgb(246, 13, 162);
+    --deprecated-quickswitcher-input-placeholder: rgba(246, 13, 162, 0.3);
+    --deprecated-text-input-bg: rgba(0,0,0,0.1); /*Unknown*/
+    --deprecated-text-input-border: rgba(0,0,0,0.3); /*Unknown*/
+    --deprecated-text-input-border-hover: rgb(246, 13, 162);
+    --deprecated-text-input-border-disabled: rgb(246, 13, 162);
+    --deprecated-text-input-prefix: rgb(246, 13, 162);
+}
+
+
+/*Overrides*/
+.icon-2IuuZd, .username-3KYl0N, .wrapper-PY0fhH, .name-23GUGE {
+    color: grey
+}
+
+    /*NEW Message divider. Traditonally red. (#f04747)*/
+.isUnread-3Ef-o9 {
+    border-color: rgb(204, 149, 96)
+}
+.isUnread-3Ef-o9 .content-1o0f9g { /*Date*/
+    color: rgb(204, 149, 96)
+}
+.unreadPill-2HyYtt {
+    background-color: rgb(204, 149, 96)
+}
+.unreadPillCapStroke-7rkHbg {
+    color: rgb(204, 149, 96);
+    fill: rgb(204, 149, 96);
+}
