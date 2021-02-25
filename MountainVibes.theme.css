@@ -1,0 +1,17 @@
+//META{"name":"MountainVibes","description":"A BetterDiscord theme made to match my Linux Mint XFCE appearance.","author":"FloridaGuy#3275","version":"WIP"}*//
+
+@import url(https://floridaguy0515.github.io/MountainVibes-BDtheme/MountainVibes-CORE.css);
+@import url(https://floridaguy0515.github.io/MountainVibes-BDtheme/MountainVibes-SETTINGS.css);
+
+:root {
+    --titlebar: #2F2F2F;
+    --bg1: #353535;
+    --bg2: #383838;
+    --bg3: #404040;
+    --lightorange: #CC9560;
+    --darkorange: #BF864F;
+    --lightgrey: #DADADA;
+    --darkgrey: #8F8F8F;
+    --cyan: #33FFFF;
+    --debug: #F60DA2;
+}
