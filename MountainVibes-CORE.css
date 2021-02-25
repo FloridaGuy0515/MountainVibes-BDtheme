@@ -74,14 +74,17 @@
     .fade-2kXiP2::-webkit-scrollbar-thumb, .fade-2kXiP2::-webkit-scrollbar-track {
         visibility: visible;
     }
-    .thin-1ybCId::-webkit-scrollbar-track { /*Left Track*/
+    .thin-1ybCId::-webkit-scrollbar-track { /*Thin Track*/
         border-color: var(--titlebar);
         background-color: var(--titlebar);
         border: var(--titlebar);
     }
-    .thin-1ybCId::-webkit-scrollbar-thumb { /*Left Thumb*/
+    .thin-1ybCId::-webkit-scrollbar-thumb { /*Thin Thumb*/
         background-color: var(--darkorange);
     }
+	.auto-Ge5KZx, .auto-Ge5KZx.fade-2kXiP2:hover, .auto-Ge5KZx.scrolling-1Cdwk- {
+		scrollbar-color: var(--darkorange) var(--bg3)
+	}
 
 /*Pop-up menus*/
 	.menu-3sdvDG { /*Drop-down menu*/
