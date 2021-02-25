@@ -82,8 +82,11 @@
     .thin-1ybCId::-webkit-scrollbar-thumb { /*Thin Thumb*/
         background-color: var(--darkorange);
     }
-	.auto-Ge5KZx, .auto-Ge5KZx.fade-2kXiP2:hover, .auto-Ge5KZx.scrolling-1Cdwk- {
-		scrollbar-color: var(--darkorange) var(--bg3)
+	.auto-Ge5KZx::-webkit-scrollbar-track { /*Thick Track*/
+		background-color: var(--titlebar);
+	}
+	.auto-Ge5KZx::-webkit-scrollbar-thumb { /*Thick Thumb*/
+		background-color: var(--darkorange);
 	}
 
 /*Pop-up menus*/
