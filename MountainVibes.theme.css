@@ -1,7 +1,6 @@
 //META{"name":"MountainVibes","description":"A BetterDiscord theme made to match my Linux Mint XFCE appearance.","author":"FloridaGuy#3275","version":"WIP"}*//
 
-@import url(https://floridaguy0515.github.io/MountainVibes-BDtheme/MountainVibes-CORE.css);
-@import url(https://floridaguy0515.github.io/MountainVibes-BDtheme/MountainVibes-SETTINGS.css);
+@import url(https://floridaguy0515.github.io/MountainVibes-BDtheme/MountainVibes-COLORS.css);
 
 :root {
     --titlebar: #2F2F2F;
