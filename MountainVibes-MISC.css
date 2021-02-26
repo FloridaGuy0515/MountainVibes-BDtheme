@@ -1,0 +1,12 @@
+:root {
+	--homeIcon: url(https://raw.githubusercontent.com/FloridaGuy0515/MountainVibes-BDtheme/main/cinnamon_50px.png);
+}
+
+/*Custom Home Button*/
+	.homeIcon-tEMBK1 {
+		background-image: var(--homeIcon) !important;
+		background-size: 30px;
+		background-repeat: no-repeat;
+		width: 33px;
+		height: 33px;
+	}
