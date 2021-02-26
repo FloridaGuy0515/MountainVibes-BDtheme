@@ -11,8 +11,64 @@
 	--debug: #F60DA2;
 }
 
-
-/*Backgrounds*/
-	.scroller-2TZvBN { /*Server List*/
+/*LARGE ELEMENTS e.g. BACKGROUNDS*/
+	.scroller-2TZvBN { /*Server List Background*/
 		background-color: var(--titlebar);
+	}
+	.panels-j1Uci_ { /*User Info Panel Background*/
+		background-color: var(--titlebar);
+	}
+	.scroller-1JbKMe { /*Direct Messages Panel Background*/
+		background-color: var(--bg1);
+	}
+	.privateChannels-1nO12o { /*"Find or start a conversation" Background*/
+		background-color: var(--bg2);
+	}
+	.searchBar-6Kv8R2 .searchBarComponent-32dTOx { /*"Find or start a conversation" search box*/
+		color: var(--darkgrey); /*Text*/
+		background-color: var(--titlebar); /*Background*/
+	}
+	.container-1r6BKw.themed-ANHk51 { /*Friends Top Panel*/
+		background: var(--bg2);
+	}
+	.theme-dark .container-1D34oG { /*Friends List Background*/
+		background-color: var(--bg2);
+	}
+	.nowPlayingColumn-2sl4cE { /*"Active Now" Panel*/
+		background: var(--bg1);
+	}
+	.emptyCard-1RJw8n { /*"It's quiet for now..." background*/
+		background: var(--titlebar);
+	}
+	.chat-3bRxxu, .threadSidebar-1o3BTy { /*Chat Background*/
+		background: var(--bg2);
+	}
+	.scrollableContainer-2NUZem { /*Message Field Background*/
+		background-color: var(--bg3);
+	}
+	.container-3w7J-x { /*Channel List Background*/
+		background-color: var(--bg1);
+	}
+	.members-1998pB, .members-1998pB>div { /*Member List Background*/
+		background-color: var(--bg1);
+	}
+	.embedFull-2tM8-- { /*Embedded Links Background*/
+		background: var(--titlebar);
+		border-left: 4px solid var(--cyan); /*Used as a fallback when a website does not provide their own color*/
+	}
+	.wrapper-2qzCYF { /*Video / screen share background*/
+		background-color: var(--bg2);
+	}
+	.gradientContainer-10lXLB { /*Video / screen share background gradient*/
+		height: 0px;
+	}
+
+/*BUTTONS e.g. "Home"*/
+	.childWrapper-anI2G9 { /*"Home" button, unselected*/
+		color: transparent; /*Controls the default Discord logo*/
+		background-color: var(--bg3);
+	}
+	.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 { /*"Home" button, hovered or selected*/
+		color: transparent; /*Controls the default Discord logo*/
+		background-color: var(--darkorange);
 	}
